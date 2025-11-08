@@ -31,7 +31,8 @@ defmodule UeberauthStrava.Mixfile do
       {:oauth2, "~> 0.9"},
       {:ex_doc, "~> 0.19", only: :dev},
       {:earmark, ">= 0.0.0", only: :dev},
-      {:dogma, ">= 0.0.0", only: [:dev, :test]}
+      {:dogma, ">= 0.1.16", only: [:dev, :test]},
+      {:poison, "~> 6.0"}
     ]
   end
 
