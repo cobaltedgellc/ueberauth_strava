@@ -32,7 +32,7 @@ defmodule UeberauthStrava.Mixfile do
       {:ex_doc, "~> 0.19", only: :dev},
       {:earmark, ">= 0.0.0", only: :dev},
       {:dogma, ">= 0.1.16", only: [:dev, :test]},
-      {:poison, "~> 6.0"}
+      {:poison, "~> 3.1 or ~> 4.0"}
     ]
   end
 
